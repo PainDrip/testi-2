@@ -4,10 +4,10 @@ VERSION : 0.1
 
 BEGIN
 	
-	IF "Stop" THEN
-	    "Run" := FALSE;   // Stop
-	ELSIF "Start" THEN
-	    "Run" := TRUE;    // Start
+	IF "Stop_SCL" THEN
+	    "Run_SCL" := FALSE;   // Stop
+	ELSIF "Start_SCL" THEN
+	    "Run_SCL" := TRUE;    // Start
 	END_IF;
 	
 END_FUNCTION
